@@ -17,7 +17,7 @@
 ---
 
 ## 📑 Contents
-[Overview](#-overview) · [Quick Start](#-quick-start) · [Features](#-features) · [How It Works](#-how-it-works) · [Warning Signs](#-the-six-warning-signs) · [Requirements](#-requirements) · [How to Run](#-how-to-run) · [Example Output](#-example-output) · [Testing](#-testing) · [Screenshots](#-screenshots) · [Improvements](#-improvements) · [Limitations](#-limitations) · [Ethical Use](#-ethical-use) · [Author](#-author)
+[Overview](#-overview) · [Quick Start](#-quick-start) · [Features](#-features) · [How It Works](#-how-it-works) · [Warning Signs](#-the-six-warning-signs) · [Project Structure](#-project-structure) · [Requirements](#-requirements) · [How to Run](#-how-to-run) · [Example Output](#-example-output) · [Testing](#-testing) · [Screenshots](#-screenshots) · [Improvements](#-improvements) · [Limitations](#-limitations) · [Ethical Use](#-ethical-use) · [Additional Document](#-additional-document) · [Author](#-author)
 
 ---
 
@@ -72,14 +72,15 @@ These are clues, not proof. A link with zero clues can still be dangerous, for e
 ## 🗂️ Project Structure
 ```
 phishing-url-awareness/
-├── phishing_checker.py      # the Python program
-├── README.md                # this file
-├── requirements.txt         # no extra packages needed
+├── phishing_checker.py                        # the Python program
+├── README.md                                  # this file
+├── requirements.txt                           # no extra packages needed
+├── EWB_Cyber_Assessment01_Gopal_Mankar.pdf    # Assessment 01: Security Foundations
 ├── tests/
-│   └── test_samples.md      # test evidence table
+│   └── test_samples.md                        # test evidence table
 └── screenshots/
-    ├── sample_run.png       # one program run
-    └── test_results.png     # proof of the tests
+    ├── sample_run.png                         # one program run
+    └── test_results.png                       # proof of the tests
 ```
 
 ## 📦 Requirements
@@ -151,6 +152,9 @@ found does NOT mean a URL is safe.
 ## 🤝 Ethical Use
 Use sample strings only. Do not collect credentials. Do not use this
 project to deceive anyone or to test websites without permission.
+
+## 📎 Additional Document
+This repository also includes `EWB_Cyber_Assessment01_Gopal_Mankar.pdf`, my EWB Assessment 01 (Security Foundations), uploaded as instructed by the EWB team. It is separate from the Phishing URL Awareness Checker mini project.
 
 ## 👤 Author
 Gopal Mankar, AI Powered Cybersecurity Internship, EWB Courses
